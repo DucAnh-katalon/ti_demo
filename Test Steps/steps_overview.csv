@@ -1,0 +1,29 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+723,Complete Purchase with Multiple Options and Checkout Process,"Navigate to home, select product options, add to cart, and proceed through checkout. Enter shipping and payment information, then verify completion.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on label storage128Gb
+Step 4: Click on label colorBlue
+Step 5: Click on button buy
+Step 6: Click on link placeOrder -> Navigate to page '/cart'
+Step 7: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 8: Click on div newsOffers
+Step 9: Click on input email
+Step 10: Enter input value in input email
+Step 11: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 12: Click on input firstName
+Step 13: Enter input value in input firstName
+Step 14: Click on input lastName
+Step 15: Enter input value in input lastName
+Step 16: Click on input address
+Step 17: Enter input value in input address
+Step 18: Click on input zipCode
+Step 19: Enter input value in input zipCode
+Step 20: Click on div phone
+Step 21: Click on input city
+Step 22: Enter input value in input city
+Step 23: Click on input state
+Step 24: Click on input phone
+Step 25: Enter input value in input phone
+Step 26: Click on button continueToPayment -> Navigate to page ''
+Step 27: Take full page screenshot as checkpoint
+",High,NEW
