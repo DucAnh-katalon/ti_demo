@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link aboutLearnMore -> Navigate to page '/about'",
+        "step 3: Click on link iframes -> Navigate to page '/iframes'",
+        "step 4: Click on button iframeSameDomain",
+        "step 5: Click on header iframeSameDomain",
+        "step 6: Click on link iframeOptions (notifications)",
+        "step 7: Hover over button infoMessage",
+        "step 8: Click on button toggleTheme",
+        "step 9: Click on button successMessage",
+        "step 10: Click on link iframeOptions (fileDownload)",
+        "step 11: Click on link iframeOptions (iframes)",
+        "step 12: Hover over button iframeSameDomainForms",
+        "step 13: Click on link iframeOptions (dynamicElements)",
+        "step 14: Click on link iframeOptions (forms)",
+        "step 15: Login",
+        "step 16: Click on p practiceFormInteractions -> Navigate to page ''",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}
