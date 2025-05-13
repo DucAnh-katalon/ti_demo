@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over link tablesWorkWithSortableTables",
+        "step 3: Click on link forms -> Navigate to page '/forms'",
+        "step 4: Login",
+        "step 5: Click on link tables -> Navigate to page '/tables'",
+        "step 6: Click on input nameField (name)",
+        "step 7: Enter input value in input nameField (name)",
+        "step 8: Click on button tableActions (delete)",
+        "step 9: Click on button close",
+        "step 10: Click on input nameField (name2)",
+        "step 11: Enter input value in input nameField (name2)",
+        "step 12: Click on button tableActions (add)",
+        "step 13: Click on button close -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}
