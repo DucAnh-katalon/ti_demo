@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3cf28f17-c981-4407-915d-92c779a578b4</id>
+        </flow>
+    </customField>
+    <description>Navigate through the home page, interact with product options, add the iPhone case to the cart, and proceed to checkout while verifying each step.</description>
+    <name>TC1-Test All Features for Adding and Buying Apple iPhone 15 Pro Case</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>e6d73881-6656-4579-8d64-6730c2ea1ed1</testCaseGuid>
+    <variable>
+        <defaultValue>'Pink'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cf033d54-51d5-4fca-9791-e26eb0a0c76c</id>
+        <masked>false</masked>
+        <name>label_colorAndStorageOption_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'256 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4003dd5f-0260-4bd1-a951-dc265136fb2c</id>
+        <masked>false</masked>
+        <name>label_colorAndStorageOption_internalText_1</name>
+    </variable>
+</TestCaseEntity>
