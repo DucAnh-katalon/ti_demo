@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8300ea87-c942-439b-bb85-a621f4f3db6c</id>
+        </flow>
+    </customField>
+    <description>Navigate to the HR section, access reports, and open the HR payroll inbox. Verify the home page after accessing the inbox.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC3-Access HR Payroll Inbox Reports</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>5f82ec51-3b76-495e-b571-7154113906c6</testCaseGuid>
+    <variable>
+        <defaultValue>'__item5-__list10-8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>eaba5351-7d7b-4a34-961c-e7464097e0f7</id>
+        <masked>false</masked>
+        <name>div_actionsReports_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Edit Business Address Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>383f46cf-827b-4bd9-ab57-7dacb1ba090d</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_internalLabel</name>
+    </variable>
+</TestCaseEntity>

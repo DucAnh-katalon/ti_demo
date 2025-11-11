@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1238ee4c-5b9e-49f7-a0e8-0e75082b86e3</id>
+        </flow>
+    </customField>
+    <description>Navigate to the HR section, access the Human Capital Management link, and verify the home page after viewing interactive charts.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC2-Access Human Capital Management Workflow</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9581bdac-4d69-44cc-8d59-549f783ea902</testCaseGuid>
+    <variable>
+        <defaultValue>'UIComp_1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>00e006bb-46fc-4f21-a020-fb5612119a45</id>
+        <masked>false</masked>
+        <name>div_interactiveLineCharts_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'An Interactive Line Chart. Chart title is Total Headcount by Year.'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3211fe2f-b6c2-4545-9347-a5b83349261a</id>
+        <masked>false</masked>
+        <name>div_interactiveLineCharts_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item0-anchorNavigationBar-7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a111dbb0-580d-4d21-9d34-19825f1fb332</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile157'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f7d1655c-bd9a-4d06-b459-df169643ecb8</id>
+        <masked>false</masked>
+        <name>link_humanCapitalManagement_id</name>
+    </variable>
+</TestCaseEntity>

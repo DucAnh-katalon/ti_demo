@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to /sap/bc/ui2/flp#Shell-home",
+        "step 2: Click on button moreGroups",
+        "step 3: Click on div actionsReports (actions)",
+        "step 4: Click on link hrPayrollInbox (editBusinessAddress) -> Navigate to page ''",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}
