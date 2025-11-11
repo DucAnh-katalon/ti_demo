@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>a7b98132-48a9-4683-b9a4-f585c391c347</id>
+        </flow>
+    </customField>
+    <description>Navigate to KPI settings, maximize and minimize options, sort employee names, and confirm actions to verify the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC24-Adjust KPI Settings and Verify Home Page in SAP Business Client</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f8de6cdb-483f-4c59-8ed2-70115c47ccb6</testCaseGuid>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmretirementbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_RETIRE_AGE_BN_ALPResults--table-btnFullScreen'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>efb9c3b3-6424-4ffb-ba3e-3a033c5f6e8d</id>
+        <masked>false</masked>
+        <name>button_maximizeSettings_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmretirementbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_RETIRE_AGE_BN_ALPResults--chart-btnFullScreen'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e03bb801-91ce-4f30-b2cf-5dbb9f09a6d7</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Maximize'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>eb7f397f-05de-41fc-8b71-7cbe376fc590</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'__button12'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a37c200b-ec9e-4ff4-aa0f-7e28b8399844</id>
+        <masked>false</masked>
+        <name>button_sortingOptions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Ascending'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>06a90266-18c6-454c-86af-59b3bf37ab5a</id>
+        <masked>false</masked>
+        <name>button_sortingOptions_internalLabel</name>
+    </variable>
+</TestCaseEntity>

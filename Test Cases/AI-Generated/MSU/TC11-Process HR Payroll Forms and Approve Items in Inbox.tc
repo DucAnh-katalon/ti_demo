@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f8bcde57-0948-4c37-812c-dab4c8553c8e</id>
+        </flow>
+    </customField>
+    <description>Follow instructions to process HR payroll forms, approve items based on effective dates, and navigate back to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC11-Process HR Payroll Forms and Approve Items in Inbox</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9635bdbe-eba7-49e1-9672-0fb0b0fc71ef</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4b8a7ec8-f883-427a-8c51-256f700d2370</id>
+        <masked>false</masked>
+        <name>div_formRequirements_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Form I-9 is required \\u2013 please complete an electronic I-9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2ee933ef-6eaa-4738-92c7-f1efff6e7a4c</id>
+        <masked>false</masked>
+        <name>div_formRequirements_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Please attach Disclosure and Consent form'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1f15644d-8b7d-4068-b81e-d71936f3140f</id>
+        <masked>false</masked>
+        <name>div_formRequirements_internalLabel_2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>711283f2-864b-4484-86d9-3025f3b34cf1</id>
+        <masked>false</masked>
+        <name>input_endDate</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e0178736-ac6a-4825-b91b-f4a6c0e7a0d2</id>
+        <masked>false</masked>
+        <name>input_jobDetails</name>
+    </variable>
+    <variable>
+        <defaultValue>'Amount'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>976bf2b4-e73b-4b37-ac47-144cdf339eb8</id>
+        <masked>false</masked>
+        <name>input_jobDetails_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Amount'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e831e2e1-8760-48b8-9061-e5332f2fed7f</id>
+        <masked>false</masked>
+        <name>input_jobDetails_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>60e68882-bd11-4273-92db-d184038b73b2</id>
+        <masked>false</masked>
+        <name>input_orgUnitId</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>73352375-3987-40ce-be58-1d0f9d2919cd</id>
+        <masked>false</masked>
+        <name>input_startDate</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item20-__xmlview0--employeeProcess-1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>77d4e69a-efea-4213-b553-5eeff4e5b010</id>
+        <masked>false</masked>
+        <name>item_dynamicObject_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item21-__xmlview0--employeeType-4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d4fd0157-3c1f-47bb-9b66-5f9a77b64282</id>
+        <masked>false</masked>
+        <name>item_dynamicObject_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item28-application-GRADProcesses-Fiori-component---detail--selectAttachmntType-2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d8b0406a-9ba3-4e75-b681-5d760db502c0</id>
+        <masked>false</masked>
+        <name>item_dynamicObject_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item28-application-GRADProcesses-Fiori-component---detail--selectAttachmntType-1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ea0023f1-0600-44e4-b986-c2f75f028828</id>
+        <masked>false</masked>
+        <name>item_dynamicObject_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item19-anchorNavigationBar-10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c083016e-eb4f-4972-b652-ae24dde2c3ae</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile261'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a1faa2ee-606a-4e32-99b5-7911e25c5e8e</id>
+        <masked>false</masked>
+        <name>link_hrFormsReports_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'HR Forms Workflow Report 2 In Process Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>236d6081-1d09-4941-8a16-a04051440b2f</id>
+        <masked>false</masked>
+        <name>link_hrFormsReports_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile263'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a5d3d83c-a840-4c06-a4cb-c8dae739a260</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile261'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b784f4af-3631-4b3c-aa37-b60414d4a3a4</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile261'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3b9aecaa-13ad-44df-a49b-570ef85fcac7</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'HR/Payroll Inbox 11 Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0dd79497-06e2-45d3-9626-54f3ddb0de89</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'HR Forms Workflow Report 2 In Process Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6405d7dc-64b2-450d-a854-93dcaabb0722</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'HR Forms Workflow Report 2 In Process Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f6e915a9-0c03-45e3-a507-1427f44f6680</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_internalLabel_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__text86'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4de602c7-e901-4c86-bee6-9d22529cd0fb</id>
+        <masked>false</masked>
+        <name>span_effectiveDates_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__xmlview0--employeeProcess-labelText'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>74821707-bdf6-4cfa-8b0a-4eb8f1efb268</id>
+        <masked>false</masked>
+        <name>span_processInstructions_id</name>
+    </variable>
+</TestCaseEntity>

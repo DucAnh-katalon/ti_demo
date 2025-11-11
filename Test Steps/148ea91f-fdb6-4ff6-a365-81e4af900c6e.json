@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /sap/bc/ui2/flp#Shell-home",
+        "step 2: Click on list hrPayrollSystem",
+        "step 3: Click on list hrPayrollSystem",
+        "step 4: Click on list hrPayrollSystem",
+        "step 5: Click on div productionGroup",
+        "step 6: Click on item workflowTabs (reportsTab2)",
+        "step 7: Click on link humanCapitalManagement (hcmAnalyticsDashboard) -> Navigate to page '/sap/bc/ui2/flp#Hcmanalyticreport-analytics'",
+        "step 8: Click on div interactiveLineChart3 -> Navigate to page '/sap/bc/ui2/flp#Headcount-alp?p FromYear=*&p ToYear=*&recordYear=*&sap-app-origin-hint=*&sap-ushell-navmode=*&sap-xapp-state=*&/?sap-iapp-state--history=*&sap-iapp-state=*'",
+        "step 9: Click on button menuActions (openMenu)",
+        "step 10: Click on item exportAs",
+        "step 11: Click on div splitCellsCheckbox",
+        "step 12: Click on input fileName",
+        "step 13: Enter input value in input fileName",
+        "step 14: Press key Enter on input fileName",
+        "step 15: Click on button export -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

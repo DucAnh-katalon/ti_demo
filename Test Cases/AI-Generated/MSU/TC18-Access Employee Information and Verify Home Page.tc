@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3c4e20e1-2213-4aad-9cd8-376d7a477c62</id>
+        </flow>
+    </customField>
+    <description>Navigate to employee information, input employment details, and verify the home page after processing.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC18-Access Employee Information and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>4985ea45-0b69-49bf-80ea-8b28f575a43b</testCaseGuid>
+    <variable>
+        <defaultValue>'__item41-selectMulti'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>820e931c-6a34-4f5c-a106-ac2a64f8cee6</id>
+        <masked>false</masked>
+        <name>div_itemSelections_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item100-selectMulti'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>abca31f7-9648-42ea-9ba1-f4ee9fff31dc</id>
+        <masked>false</masked>
+        <name>div_itemSelections_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.zhpa_ee_info_p\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.ListReport\\\\.view\\\\.ListReport\\\\:\\\\:ZCDS_EE_INFO_PARAMSet--listReportFilter-filterItemControl_BASIC-stat2-inner'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2c5b070d-8d00-4735-8a05-44ed457ab715</id>
+        <masked>false</masked>
+        <name>input_employmentDetails_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item0-anchorNavigationBar-11'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dca1c541-9cc4-465e-91ec-87f380d3444e</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.zhpa_ee_info_p\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.ListReport\\\\.view\\\\.ListReport\\\\:\\\\:ZCDS_EE_INFO_PARAMSet--listReportFilter-filterItemControl_BASIC-ee_type-arrow'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>275c59ca-3893-4cc3-9eba-ce9202edf82a</id>
+        <masked>false</masked>
+        <name>span_employeeTypeOptions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.zhpa_ee_info_p\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.ListReport\\\\.view\\\\.ListReport\\\\:\\\\:ZCDS_EE_INFO_PARAMSet--listReportFilter-filterItemControl_BASIC-stat2-arrow'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c9c82338-683e-4db9-bede-632bb425b313</id>
+        <masked>false</masked>
+        <name>span_employeeTypeOptions_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.zhpa_ee_info_p\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.ObjectPage\\\\.view\\\\.Details\\\\:\\\\:ZCDS_EE_INFO_PARAMSet--template\\\\:\\\\:\\\\:ObjectPageTable\\\\:\\\\:\\\\:ColumnListItem\\\\:\\\\:\\\\:sFacet\\\\:\\\\:to_DateSpecs\\\\:\\\\:com\\\\.sap\\\\.vocabularies\\\\.UI\\\\.v1\\\\.LineItem-__clone620-cell0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>53f55cf2-7acd-403a-82ba-e44a831c8da8</id>
+        <masked>false</masked>
+        <name>td_timeAndDate_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.zhpa_ee_info_p\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.ObjectPage\\\\.view\\\\.Details\\\\:\\\\:ZCDS_EE_INFO_PARAMSet--template\\\\:\\\\:\\\\:ObjectPageTable\\\\:\\\\:\\\\:ColumnListItem\\\\:\\\\:\\\\:sFacet\\\\:\\\\:to_DateSpecs\\\\:\\\\:com\\\\.sap\\\\.vocabularies\\\\.UI\\\\.v1\\\\.LineItem-__clone619-cell0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1e77e6e2-71f5-4809-a37a-27ec40b36dda</id>
+        <masked>false</masked>
+        <name>td_timeAndDate_id_1</name>
+    </variable>
+</TestCaseEntity>

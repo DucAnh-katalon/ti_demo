@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /sap/bc/ui2/flp#Shell-home",
+        "step 2: Click on item workflowTabs (reports2)",
+        "step 3: Click on link humanCapitalManagement (humanCapitalManagementAnalytics3) -> Navigate to page '/sap/bc/ui2/flp#Hcmanalyticreport-analytics'",
+        "step 4: Click on span employeeTypeFilters (selectOptions5)",
+        "step 5: Click on span employeeTypeFilters (employeeTypeFilter)",
+        "step 6: Click on div itemSelection -> Navigate to page '/sap/bc/ui2/flp#Hcmanalyticreport-analytics&/?sap-iapp-state=*'",
+        "step 7: Click on div itemSelections (itemSelection2)",
+        "step 8: Click on div itemSelectionActions (itemSelection3)",
+        "step 9: Click on div itemSelection4",
+        "step 10: Click on div itemSelections (itemSelection5)",
+        "step 11: Click on div itemSelectionActions (itemSelection6) -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

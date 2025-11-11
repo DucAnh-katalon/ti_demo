@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>0d1b179c-5695-48b7-8679-9235a4f6432f</id>
+        </flow>
+    </customField>
+    <description>Navigate to employee roles, filter details, and confirm actions for selected employees while ensuring navigation to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC15-Manage Employee Roles and Confirm Actions</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b9e6f759-23da-4a52-adfb-079a56cb02d2</testCaseGuid>
+    <variable>
+        <defaultValue>'__popup114-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>23a22bc6-b2fc-4a0c-8177-ffd2ece24fa4</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup167-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>75160c93-c48f-4520-b8c6-bc538eee306e</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup228-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2d9c5cb2-6a1a-4b12-a021-8900c717783b</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmretirementbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_RETIRE_AGE_BN_ALPResults--template\\\\:\\\\:SmartFilterBar-filterItemControlA_-_Parameter\\\\.recordYear-valueHelpDialog-cancel'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>305a2b89-8732-49c3-9ee4-dc40f5b63a79</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup299-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d864d07e-3410-4985-bb67-51025bdd26db</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup354-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>31370559-2085-4a77-a487-5a88c12a1116</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup357-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>983c9a3d-6475-472c-8649-59c29c354654</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup360-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6cbe083a-3a74-4e64-8514-71bde944dda3</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_7</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup363-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a018dfbc-7482-4b8f-b407-4701ead90b99</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_8</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup366-confirmBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4a85be5b-83db-4ef8-93ab-18e13f87904d</id>
+        <masked>false</masked>
+        <name>button_confirmationActions_id_9</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item490-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>be7f2f3e-2ac1-4af2-85e5-d442ba18f59c</id>
+        <masked>false</masked>
+        <name>div_additionalFilters_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item693-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>addcf395-48a5-4c1a-8559-2a062297139d</id>
+        <masked>false</masked>
+        <name>div_additionalFilters_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'WRITING\\\\, RHETORIC\\\\, AND CULTURES \\\\(10004054\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6d851fc4-deba-44d2-bd7b-5f9a0a9f942b</id>
+        <masked>false</masked>
+        <name>div_departmentOptions_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'MANAGEMENT \\\\(10008566\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9a4dedaf-744b-4141-9b2c-e482411c5735</id>
+        <masked>false</masked>
+        <name>div_departmentOptions_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'ADVERTISING AND PUBLIC RELATIONS \\\\(10010022\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0db4be8d-7e8b-438a-b108-a9118f4130f2</id>
+        <masked>false</masked>
+        <name>div_departmentOptions_divTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__token4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8dca5422-8aae-4c8e-aae5-65f30e3e701b</id>
+        <masked>false</masked>
+        <name>div_departmentOptions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__token5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a6970e9e-f0d0-4b2e-80fd-b96ad8e827e3</id>
+        <masked>false</masked>
+        <name>div_departmentOptions_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__token6'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ed474910-dfa9-42fb-8118-abcb9a7fffd1</id>
+        <masked>false</masked>
+        <name>div_departmentOptions_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item590-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>456b150e-77e1-4491-9e54-37cf6681958d</id>
+        <masked>false</masked>
+        <name>div_filterOptions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item623-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cf12affc-be8f-487c-9856-0b32798d8899</id>
+        <masked>false</masked>
+        <name>div_filterOptions_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item658-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>edfde9fd-1298-4d2d-ba95-180c9a811673</id>
+        <masked>false</masked>
+        <name>div_filterOptions_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item728-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>33f157db-682f-41d9-bfaf-c8ae12f4bb38</id>
+        <masked>false</masked>
+        <name>div_filterOptions_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\={{name}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>775914bf-3f60-4f7c-9b02-81f06dc81d77</id>
+        <masked>false</masked>
+        <name>div_optionItems_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\={{name}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>db93204c-351d-4482-8b39-ada6f9bffce9</id>
+        <masked>false</masked>
+        <name>div_optionItems_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\={{name}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dc5173ae-3ba6-420c-a97f-9a300eb83277</id>
+        <masked>false</masked>
+        <name>div_optionItems_divTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\={{name}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2988e8df-b56c-485c-a881-730c0b26e758</id>
+        <masked>false</masked>
+        <name>div_optionItems_divTitle_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'__token15'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b0814e78-6bf3-4eb3-835b-3c3f7feb6e5b</id>
+        <masked>false</masked>
+        <name>div_optionItems_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__token17'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>906b7ea7-d0c0-4444-8527-e0ff0e547c65</id>
+        <masked>false</masked>
+        <name>div_optionItems_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__token19'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>14ffd843-5280-4e18-8120-42e2fbe283b2</id>
+        <masked>false</masked>
+        <name>div_optionItems_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__token21'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e2ee9c54-87d2-4d9b-a458-a49e477aa687</id>
+        <masked>false</masked>
+        <name>div_optionItems_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item283-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>14fc4b1f-e067-4380-899f-dcd7b1660afa</id>
+        <masked>false</masked>
+        <name>div_sortAndFilterOptions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item190-content'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d5e63dc6-5d35-4e6f-ab15-338383a17d0e</id>
+        <masked>false</masked>
+        <name>div_sortFilterOptions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmturnoverbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_TURNOVER_BN_ALPResults--template\\\\:\\\\:SmartFilterBar-filterItemControlA_-_Parameter\\\\.recordYear-valueHelpDialog-table-rows-row5-col0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8d7788b9-76c3-49e0-8b90-d886e5dae7c0</id>
+        <masked>false</masked>
+        <name>div_yearRecords_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmturnoverbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_TURNOVER_BN_ALPResults--template\\\\:\\\\:SmartFilterBar-filterItemControlA_-_Parameter\\\\.recordYear-valueHelpDialog-table-rows-row6-col0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6c75577b-0ff7-461a-97fa-8d98020e77ff</id>
+        <masked>false</masked>
+        <name>div_yearRecords_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>2c5b8e05-5b2e-427f-9699-cc23256e666b</id>
+        <masked>false</masked>
+        <name>input_employeeName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>32cc3e50-bb7c-4c5a-aeaf-4685f7168f6f</id>
+        <masked>false</masked>
+        <name>input_employeeName2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>845f0f3d-d098-4244-adbb-0142bffbb7e2</id>
+        <masked>false</masked>
+        <name>input_employeeName3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>6a82bbf8-3de5-4ca8-8bc4-3b219e3a9a3c</id>
+        <masked>false</masked>
+        <name>input_employeeName3_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e2cc2f79-1822-4913-a5b5-290c7f2257a7</id>
+        <masked>false</masked>
+        <name>input_employeeName3_2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>df8bbf4f-1b32-4047-81d1-f9441c851b70</id>
+        <masked>false</masked>
+        <name>input_employeeName3_3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>c96b0234-9588-48a9-9833-04059db4b280</id>
+        <masked>false</masked>
+        <name>input_employeeName3_4</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>ce0f3c76-dba5-491e-9abb-568f394c840d</id>
+        <masked>false</masked>
+        <name>input_employeeName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>35a9f0ba-7ce5-4bed-a4dd-48cf549c3917</id>
+        <masked>false</masked>
+        <name>input_organizationalDetails</name>
+    </variable>
+    <variable>
+        <defaultValue>'Organizational unit'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>64496c09-a8eb-4829-b401-919b9694af94</id>
+        <masked>false</masked>
+        <name>input_organizationalDetails_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Organizational unit'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>60ec2969-f959-4aaf-9fdb-6fd2d1ac7a59</id>
+        <masked>false</masked>
+        <name>input_organizationalDetails_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>ee986eda-18e5-4839-b660-578e026bee94</id>
+        <masked>false</masked>
+        <name>input_organizationalUnit6</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e2df1be4-c09e-4865-9df5-5d6a62f77b99</id>
+        <masked>false</masked>
+        <name>input_organizationalUnit6_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>bc01ad49-a5c0-493e-abe5-688939d1d766</id>
+        <masked>false</masked>
+        <name>input_organizationalUnit6_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item0-anchorNavigationBar-4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4b5b377d-36a3-4a3e-8868-8b0b630005e4</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item0-anchorNavigationBar-11'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>65144a63-7efa-42f5-9e66-37db3780b81d</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile83'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>50afa463-86d4-4653-ac44-9edf25d0eb69</id>
+        <masked>false</masked>
+        <name>link_humanCapitalManagement_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile83'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4227f7bc-8b89-46a0-8870-1b966fcf1ee6</id>
+        <masked>false</masked>
+        <name>link_humanCapitalManagement_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmturnoverbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_TURNOVER_BN_ALPResults--template\\\\:\\\\:SmartFilterBar-filterItemControlA_-_Parameter\\\\.recordYear-valueHelpDialog-table-rows-row3-col0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a076963b-9fd9-430a-8932-76e727913c7c</id>
+        <masked>false</masked>
+        <name>td_fiscalYearData_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item212-FilterPanel-filterItemControlA_-edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmreportalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_DATA_REPORT_ALPResults--table-ename-0-cell0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a180cf4b-f174-4dc4-9005-d362e6cf9b78</id>
+        <masked>false</masked>
+        <name>td_nameDetails_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item212-FilterPanel-filterItemControlA_-edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmreportalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_DATA_REPORT_ALPResults--table-ename-0-cell0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>63bbac01-9fa6-428a-a23c-11b591b7f3c5</id>
+        <masked>false</masked>
+        <name>td_nameDetails_id_1</name>
+    </variable>
+</TestCaseEntity>

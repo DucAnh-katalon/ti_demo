@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8b8c242b-6415-40ef-bb62-372216af2757</id>
+        </flow>
+    </customField>
+    <description>Navigate through various tabs to access the HR Payroll Inbox and verify successful navigation to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC16-Access HR Payroll Inbox and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>59232e55-6c54-4c43-80e1-788d2dfcedaf</testCaseGuid>
+    <variable>
+        <defaultValue>'__item42-anchorNavigationBar-0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>01fe6e8e-9358-450d-b9a3-804969d8c349</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item6-anchorNavigationBar-4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d2ed2346-1f7c-4561-a1a6-14e48608cc1f</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item42-anchorNavigationBar-0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c05b70f3-9d3f-4d07-8db8-19c5564a2bb9</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'1095 Reprint New Window Opens Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>de5752d3-16c7-4d04-85f4-7fb59bd71e37</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'HR Operations Inbox HR and Payroll Staff Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4ecedfdd-47b1-41cd-9531-9d2fda2b45f1</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_internalLabel_1</name>
+    </variable>
+</TestCaseEntity>

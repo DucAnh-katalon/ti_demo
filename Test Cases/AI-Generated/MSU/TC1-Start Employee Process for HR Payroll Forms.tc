@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>bdf5ea82-f6c0-4b59-8679-1591ad79a617</id>
+        </flow>
+    </customField>
+    <description>Navigate to the HR payroll forms, select the employee type, and initiate the employee processing workflow. Verify the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC1-Start Employee Process for HR Payroll Forms</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>8ec3f2c7-a90c-432c-878a-cbfdf04ed480</testCaseGuid>
+    <variable>
+        <defaultValue>'__item20-__xmlview0--employeeProcess-1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fe4a309f-3270-4023-8d66-ad352ed487f5</id>
+        <masked>false</masked>
+        <name>item_dynamicObject_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item21-__xmlview0--employeeType-5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>67121d55-990c-4e69-bf96-7bede06137eb</id>
+        <masked>false</masked>
+        <name>item_dynamicObject_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item19-anchorNavigationBar-10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fe93d77b-1d63-4e1b-b82a-f1ad72e83463</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+</TestCaseEntity>

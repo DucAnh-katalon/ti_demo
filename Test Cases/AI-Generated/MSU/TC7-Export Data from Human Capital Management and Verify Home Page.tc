@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>148ea91f-fdb6-4ff6-a365-81e4af900c6e</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Human Capital Management section, export data from the HR Payroll System, and verify navigation back to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC7-Export Data from Human Capital Management and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>46764a08-7f41-402a-a276-92c6bf41c3a4</testCaseGuid>
+    <variable>
+        <defaultValue>'Open Menu'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a4d6411c-c29f-467e-bd6c-f2c7b9bed700</id>
+        <masked>false</masked>
+        <name>button_menuActions_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>89543e33-87ac-4a4e-9ab8-ca75c8d00ba3</id>
+        <masked>false</masked>
+        <name>input_fileName</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item0-anchorNavigationBar-10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>16487ca0-b0de-447b-94c1-138ef2538aba</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile373'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>21753aa1-888a-4549-ac7e-f33093e3e29b</id>
+        <masked>false</masked>
+        <name>link_humanCapitalManagement_id</name>
+    </variable>
+</TestCaseEntity>

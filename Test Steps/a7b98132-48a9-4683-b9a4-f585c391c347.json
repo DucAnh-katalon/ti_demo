@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /sap/bc/ui2/flp#Retirementage-alp",
+        "step 2: Click on div kpiContainer",
+        "step 3: Click on button settingsMaximize (maximize7)",
+        "step 4: Click on button minimize7",
+        "step 5: Click on button maximizeSettings (maximize8)",
+        "step 6: Click on div employeeName5",
+        "step 7: Click on button sortingOptions (sortAscending2)",
+        "step 8: Click on span facultyAcademicStaff",
+        "step 9: Click on button minimize2 -> Navigate to page ''",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /sap/bc/ui2/flp#Headcount-alp",
+        "step 2: Click on button maximizeSettings (maximize3)",
+        "step 3: Click on button minimize3",
+        "step 4: Click on span showValueHelp6",
+        "step 5: Click on span dateTime2",
+        "step 6: Click on button go12",
+        "step 7: Click on div object6",
+        "step 8: Click on button go12",
+        "step 9: Click on button adaptFilters5",
+        "step 10: Click on div itemSelection19",
+        "step 11: Click on button confirmationActions (ok16)",
+        "step 12: Click on input job",
+        "step 13: Enter input value in input job -> Navigate to page '/sap/bc/ui2/flp#Headcount-alp?p FromYear=*&p ToYear=*&recordYear=*&sap-app-origin-hint=*&sap-ushell-navmode=*&sap-xapp-state=*&/?sap-iapp-state--history=*&sap-iapp-state=*'",
+        "step 14: Click on button confirmationActions (close4)",
+        "step 15: Click on button confirmationActions (close5) -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}
