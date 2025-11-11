@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>54208a18-e3e2-4eac-805d-14104c3d1a9e</id>
+        </flow>
+    </customField>
+    <description>Access the Human Capital Management section, interact with various charts, and verify navigation back to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Navigate Human Capital Management Charts and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ec666564-176c-430c-8b55-5be8bb423265</testCaseGuid>
+    <variable>
+        <defaultValue>'__popup58-cancelBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d4107086-8a50-406f-8dc8-a1ba2076d764</id>
+        <masked>false</masked>
+        <name>button_cancelActions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup46-cancelBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c9ff9f81-32d5-473b-8f55-c27c2005de5c</id>
+        <masked>false</masked>
+        <name>button_cancelActions_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup58-cancelBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>62f3e7aa-ef33-420a-906d-a22a52254d3c</id>
+        <masked>false</masked>
+        <name>button_cancelActions_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__popup64-cancelBtn'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>53d946e2-f169-4449-8c06-0003968dfaa9</id>
+        <masked>false</masked>
+        <name>button_cancelActions_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmretentionbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_RETENTION_BN_ALPResults--table-btnPersonalisation'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>87601792-0f4e-4704-8625-89a72b23d7b8</id>
+        <masked>false</masked>
+        <name>button_maximizeSettings_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmretentionbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_RETENTION_BN_ALPResults--chart-btnPersonalisation'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>96fb358f-e0dd-471f-bc11-00106e651226</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmretentionbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_RETENTION_BN_ALPResults--chart-btnPersonalisation'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f61f865d-9c8f-454d-8e3a-dd781cb3880b</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'edu\\\\.msu\\\\.hr\\\\.hcm\\\\.zhcmretentionbnalp\\\\:\\\\:sap\\\\.suite\\\\.ui\\\\.generic\\\\.template\\\\.AnalyticalListPage\\\\.view\\\\.AnalyticalListPage\\\\:\\\\:ZHCM_RETENTION_BN_ALPResults--chart-btnPersonalisation'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e12f721a-502a-4882-9de7-6eb138cc1680</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Settings'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>51f4b116-91ac-48ec-87dc-421af4b62c86</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Settings'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>39ea5769-bdb4-4ae7-aed2-cc6be4f7bf9d</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Settings'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>79e8ed87-ba37-4750-a804-c2ec6e757cf5</id>
+        <masked>false</masked>
+        <name>button_settingsMaximize_internalLabel_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item0-anchorNavigationBar-11'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2ff85d8a-904c-4e16-8136-6b81219b8a31</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__tile466'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a2c7ba73-7cdd-4a83-b589-cca163e5c38d</id>
+        <masked>false</masked>
+        <name>link_humanCapitalManagement_id</name>
+    </variable>
+</TestCaseEntity>

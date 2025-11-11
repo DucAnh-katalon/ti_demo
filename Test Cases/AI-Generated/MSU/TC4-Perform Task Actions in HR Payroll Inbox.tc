@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b4fe4fd4-8d5c-4e37-bea9-51a79a6ab2b5</id>
+        </flow>
+    </customField>
+    <description>Navigate to the HR section, access the HR payroll inbox, and perform task actions. Verify the original page after actions.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC4-Perform Task Actions in HR Payroll Inbox</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d914304d-edeb-4285-a549-01e4e1fdc73d</testCaseGuid>
+    <variable>
+        <defaultValue>'__button10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cb7418b3-c83d-4f90-aa82-12f229301c82</id>
+        <masked>false</masked>
+        <name>button_taskActions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'__item6-anchorNavigationBar-4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>deba33a6-20d7-4462-b4b4-7276c8687ebf</id>
+        <masked>false</masked>
+        <name>item_workflowTabs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'HR/Payroll Inbox ... Navigation Tile'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3422cbec-6c90-4f6b-86be-ad757041f4f1</id>
+        <masked>false</masked>
+        <name>link_hrPayrollInbox_internalLabel</name>
+    </variable>
+</TestCaseEntity>
