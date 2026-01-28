@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>dcbf5368-ccbd-4bcc-9318-315c580675a4</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC78-Search and View Reference Designs in Application</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test_dynamic</tag>
     <testCaseGuid>7f545ac6-a499-4d68-a668-dc6dd3184942</testCaseGuid>
     <variable>
         <defaultValue>'Load more'</defaultValue>

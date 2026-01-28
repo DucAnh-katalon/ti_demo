@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>a9bdc49d-fd28-49aa-96cc-7042a18c01f1</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC67-Browse Power Management Products and Apply Filters</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test_dynamic</tag>
     <testCaseGuid>91d8cbfe-03b1-4239-869d-ff60f9fa7309</testCaseGuid>
     <variable>
         <defaultValue>'Power muxes'</defaultValue>

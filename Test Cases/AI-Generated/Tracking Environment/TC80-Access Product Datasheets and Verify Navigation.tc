@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>c2658a39-feac-4397-bdef-567781d9ce63</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC80-Access Product Datasheets and Verify Navigation</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test_dynamic</tag>
     <testCaseGuid>74663f0c-66ba-4e54-b8ee-89314a83bde0</testCaseGuid>
     <variable>
         <defaultValue>'span &gt; [class=\\"u-margin-right-4\\"]'</defaultValue>

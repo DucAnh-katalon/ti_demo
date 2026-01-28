@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>f0137b4c-d1e5-437b-934b-2e08b1bc0681</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC84-Download Product Information and Verify Home Page</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test_dynamic</tag>
     <testCaseGuid>08ecdd7a-986a-404d-9cf4-05b51a2330a4</testCaseGuid>
     <variable>
         <defaultValue>'svg'</defaultValue>
