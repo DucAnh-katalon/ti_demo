@@ -1,0 +1,91 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "db2743d3-7080-4582-809b-310596a6ec81",
+      "name": "Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source)",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "b8ce0ca2-c28f-48c4-ba28-18d26fc23fed",
+      "name": "Click on input keywordSearch",
+      "sub_steps": [],
+      "action_id": "bbf7c887-9812-46f2-b181-325c16d2034b",
+      "timestamp": 1769021643572,
+      "target_name": "input_keywordSearch",
+      "target_test_object_id": "b5dafe78-9202-4833-883e-1c314222db3d"
+    },
+    {
+      "id": "372cfa2d-5fd1-4f04-bab1-c3957a4c34a4",
+      "name": "Enter input value in input keywordSearch",
+      "sub_steps": [],
+      "action_id": "277098ad-b261-40f0-9d77-2510d7785387",
+      "timestamp": 1769021643929,
+      "target_name": "input_keywordSearch",
+      "target_test_object_id": "b5dafe78-9202-4833-883e-1c314222db3d"
+    },
+    {
+      "id": "4c93f983-039b-4fae-898b-c43b5fbccf31",
+      "name": "Click on td referenceDesign",
+      "sub_steps": [],
+      "action_id": "e70abedc-8a9f-450a-816b-308055643aa9",
+      "timestamp": 1769021652378,
+      "target_name": "td_referenceDesign",
+      "target_test_object_id": "fb104db4-538a-4fc8-911d-1aaf59fa2195"
+    },
+    {
+      "id": "eda0b776-c75b-42b2-8171-b30595ececa0",
+      "name": "Click on td referenceDesign2",
+      "sub_steps": [],
+      "action_id": "9987e727-2ea1-4317-bf7b-91c4f20058fb",
+      "timestamp": 1769021669260,
+      "target_name": "td_referenceDesign2",
+      "target_test_object_id": "be2ed61b-5f9e-4d6e-8eef-109fbd99dd90"
+    },
+    {
+      "id": "d6314ab4-665f-4fab-bcdd-a1de78f52a4c",
+      "name": "Click on link viewDesign",
+      "sub_steps": [],
+      "action_id": "074b8726-0b31-4994-8eed-e8413af210bc",
+      "timestamp": 1769021677845,
+      "target_name": "link_viewDesign",
+      "target_test_object_id": "dab8ac69-0a94-446d-bd93-e62d61641351"
+    },
+    {
+      "id": "a29488c1-8919-4dc2-a6c4-295239933641",
+      "name": "Click on raw powerArchitecture",
+      "sub_steps": [],
+      "action_id": "4bd7368c-0ba1-402c-b08b-3bdb768a03c1",
+      "timestamp": 1769021973926,
+      "target_name": "raw_powerArchitecture",
+      "target_test_object_id": "8ab8cd5c-4393-40cc-a90c-f4a26d135415"
+    },
+    {
+      "id": "a9576129-3bee-47bf-b1f5-ef9b4e967c75",
+      "name": "Click on button loadMore (loadMore)",
+      "sub_steps": [],
+      "action_id": "3c1808d1-4274-4759-8fa1-b7e03a83a8bc",
+      "timestamp": 1769021979647,
+      "target_name": "button_loadMore",
+      "target_test_object_id": "2011c7d2-d19b-4069-b45c-3eaaeb93ee21"
+    },
+    {
+      "id": "65333e21-fe19-43bc-bb09-8dfb95f571fc",
+      "name": "Click on td referenceDesign3 -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "7712606f-9935-472e-add0-e46e6ec141e8",
+      "timestamp": 1769021981432,
+      "target_name": "td_referenceDesign3",
+      "target_test_object_id": "449fa629-dd85-477b-926e-a2775723097e"
+    },
+    {
+      "id": "b6f41101-4a14-4641-ab35-a5fdd398a575",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

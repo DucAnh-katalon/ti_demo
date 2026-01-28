@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>dcbf5368-ccbd-4bcc-9318-315c580675a4</id>
+        </flow>
+    </customField>
+    <description>Navigate to the reference designs page, perform a keyword search, view multiple designs, and verify navigation back to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC78-Search and View Reference Designs in Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7f545ac6-a499-4d68-a668-dc6dd3184942</testCaseGuid>
+    <variable>
+        <defaultValue>'Load more'</defaultValue>
+        <description>Step 8: Click on button loadMore (loadMore) - (Dynamic locator variable)</description>
+        <id>dd77951a-3ff8-492a-b2b2-1d895e0eafc3</id>
+        <masked>false</masked>
+        <name>button_loadMore_ButtonInternalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'.load-more-button'</defaultValue>
+        <description>Step 8: Click on button loadMore (loadMore) - (Dynamic locator variable)</description>
+        <id>dffe6e57-8df4-4e74-8e0f-17f6cd19f2d1</id>
+        <masked>false</masked>
+        <name>button_loadMore_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'yes'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>7f8e7b02-8d17-4e71-a366-d69df524c772</id>
+        <masked>false</masked>
+        <name>index_DCM</name>
+    </variable>
+    <variable>
+        <defaultValue>'DYNAMIC SEARCH ADS'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>d95ecedf-116f-477d-8f9a-4a49d5316f32</id>
+        <masked>false</masked>
+        <name>index_ds_k</name>
+    </variable>
+    <variable>
+        <defaultValue>'19339297350'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>a054b290-8832-4058-903d-7be6187e3969</id>
+        <masked>false</masked>
+        <name>index_gad_campaignid</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>76c7d68c-3c18-4bf0-8061-708bc03ba833</id>
+        <masked>false</masked>
+        <name>index_gad_source</name>
+    </variable>
+    <variable>
+        <defaultValue>'0AAAAAC068F1HSANXvpWdbKhDXigmf_827'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>03d882a9-be55-47b4-b3da-d2ff9074d91d</id>
+        <masked>false</masked>
+        <name>index_gbraid</name>
+    </variable>
+    <variable>
+        <defaultValue>'CjwKCAiAj8LLBh{{aws_access_key}}dheXd_3eINHNKOfXjFMDV6rZ5-PmhK5LNteUpTapmRoC8JAQAvD_BwE'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>a9403e0c-97f8-4b57-a999-70a715905fb4</id>
+        <masked>false</masked>
+        <name>index_gclid</name>
+    </variable>
+    <variable>
+        <defaultValue>'aw.ds'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>75d12ae2-8a41-4865-9c50-bd2c0c85a0eb</id>
+        <masked>false</masked>
+        <name>index_gclsrc</name>
+    </variable>
+    <variable>
+        <defaultValue>'null-null-null-58700008213534215_refdesdynamic_enterprisesys-cpc-rd-google-ww_en_int'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>70eff344-5628-4ed7-858c-3231b7aeb9da</id>
+        <masked>false</masked>
+        <name>index_utm_campaign</name>
+    </variable>
+    <variable>
+        <defaultValue>'refdesdynamic'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>c35b09ea-3ba0-4759-9f04-1fbcf7dd2a85</id>
+        <masked>false</masked>
+        <name>index_utm_content</name>
+    </variable>
+    <variable>
+        <defaultValue>'cpc'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>7fe34ff4-0320-42b8-b7f5-981a3f9f3b8f</id>
+        <masked>false</masked>
+        <name>index_utm_medium</name>
+    </variable>
+    <variable>
+        <defaultValue>'google'</defaultValue>
+        <description>Step 1: Navigate to /reference-designs/index with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>a82e6527-3692-46ac-a11c-4f8acd8890f7</id>
+        <masked>false</masked>
+        <name>index_utm_source</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 3: Enter input value in input keywordSearch - (Input data variable)</description>
+        <id>430a8931-fed2-42b3-a900-f5923eaa9533</id>
+        <masked>false</masked>
+        <name>input_keywordSearch</name>
+    </variable>
+</TestCaseEntity>

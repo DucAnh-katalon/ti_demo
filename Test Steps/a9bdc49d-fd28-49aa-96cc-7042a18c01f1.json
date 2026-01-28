@@ -1,0 +1,73 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "910f58de-254f-469e-88f8-52c935560595",
+      "name": "Navigate to /",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "6b2b0e46-f7fa-4706-9afc-01954e6a2f11",
+      "name": "Click on link products",
+      "sub_steps": [],
+      "action_id": "ea31ff01-bcbf-4dda-8336-9130613b09de",
+      "timestamp": 1769020847740,
+      "target_name": "link_products",
+      "target_test_object_id": "2c04885b-1b62-4ec1-90e0-ea78a20745e5"
+    },
+    {
+      "id": "a16799df-a2f4-445b-828d-1a359463f34b",
+      "name": "Click on link powerManagement",
+      "sub_steps": [],
+      "action_id": "d246c289-99a9-4f9c-8ca3-5ee523177199",
+      "timestamp": 1769020853677,
+      "target_name": "link_powerManagement",
+      "target_test_object_id": "07c567f8-aefb-4151-bc93-0c4dcc797524"
+    },
+    {
+      "id": "287adce9-2bb5-47c5-9560-6a386ef448b8",
+      "name": "Click on link homeCategories (powerMuxes) -> Navigate to page '/product-category/power-management/power-protection-switches-controllers/power-muxes/overview'",
+      "sub_steps": [],
+      "action_id": "017d0d42-d4d7-49c9-bc66-ae50e07d7be2",
+      "timestamp": 1769020869797,
+      "target_name": "link_homeCategories",
+      "target_test_object_id": "3a10178e-275b-463f-af9b-89225aec6c7a"
+    },
+    {
+      "id": "70de3a35-1b44-4bff-8e09-b5adc6f95112",
+      "name": "Click on link parametricFilter2 -> Navigate to page '/product-category/power-management/power-protection-switches-controllers/power-muxes/products'",
+      "sub_steps": [],
+      "action_id": "4b283c5f-7427-4681-95ae-db701cca5dfb",
+      "timestamp": 1769020901290,
+      "target_name": "link_parametricFilter2",
+      "target_test_object_id": "d471fa36-3dc1-4f4d-a1b8-0cf5409e0c3f"
+    },
+    {
+      "id": "4620403f-be92-4c4e-ac60-4103c000d4d6",
+      "name": "Click on span priceQuantity",
+      "sub_steps": [],
+      "action_id": "11b78c91-a2f2-4b1f-a521-4d734cd3376d",
+      "timestamp": 1769020923520,
+      "target_name": "span_priceQuantity",
+      "target_test_object_id": "f36493ec-1ff2-4809-8461-0cc61156ad3e"
+    },
+    {
+      "id": "aec3b7cf-28b7-44e0-a13f-8d5b6579590e",
+      "name": "Click on link tps2116 -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "0a88110a-30d4-4bd7-944c-1169f6b28164",
+      "timestamp": 1769020990321,
+      "target_name": "link_tps2116",
+      "target_test_object_id": "8248805e-3568-4f52-932c-06a1bcd00f1d"
+    },
+    {
+      "id": "3f01a79e-838a-47d5-8555-9e845c65bdb8",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

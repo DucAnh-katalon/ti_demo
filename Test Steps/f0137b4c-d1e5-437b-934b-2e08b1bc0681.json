@@ -1,0 +1,118 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "fd3d482b-d857-40a0-ae5e-41c23013d618",
+      "name": "Navigate to /product/*",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "3db6f1a1-f095-4463-8ed7-ae79c4c5cb3d",
+      "name": "Click on link download3",
+      "sub_steps": [],
+      "action_id": "faa8354c-6d50-40df-9ba0-d1c8fc1386e9",
+      "timestamp": 1769022171476,
+      "target_name": "link_download3",
+      "target_test_object_id": "3e8a4295-87d9-470c-bfab-d85f5dc2d0ae"
+    },
+    {
+      "id": "8f0602cc-31e5-40ee-9b88-0ead41952278",
+      "name": "Click on button showMore",
+      "sub_steps": [],
+      "action_id": "60c01d2d-24eb-4549-b354-6c0df1b26a1d",
+      "timestamp": 1769022412981,
+      "target_name": "button_showMore",
+      "target_test_object_id": "7d868bb4-4a1e-4fe5-a1ed-c2f4d67fb7c0"
+    },
+    {
+      "id": "228c55c2-2037-4b90-b694-0672304f2760",
+      "name": "Click on span productIdentifier",
+      "sub_steps": [],
+      "action_id": "6425cada-eafa-40ac-aa7c-73b0f6181536",
+      "timestamp": 1769022437601,
+      "target_name": "span_productIdentifier",
+      "target_test_object_id": "4081359b-6641-49b4-aa86-9d96dd2339d2"
+    },
+    {
+      "id": "a4e1e8a9-9595-4ca6-9251-bf04b22ecdf6",
+      "name": "Click on span productIdentifier2",
+      "sub_steps": [],
+      "action_id": "2f23357e-7bc4-4684-bb44-db5beba7a485",
+      "timestamp": 1769022438925,
+      "target_name": "span_productIdentifier2",
+      "target_test_object_id": "7a482ab9-f3e7-445f-9f90-c086183c69e4"
+    },
+    {
+      "id": "dd67a051-521e-422c-b823-eb7e5de698c8",
+      "name": "Click on div dynamicObject (aiRecommendations)",
+      "sub_steps": [],
+      "action_id": "e54e0ee8-2776-49d6-b713-7e862c2d3055",
+      "timestamp": 1769022477291,
+      "target_name": "div_dynamicObject",
+      "target_test_object_id": "59498aff-0466-4542-829b-1af2c26c2601"
+    },
+    {
+      "id": "956d295f-b8b0-4d24-a832-1ba7148ab2eb",
+      "name": "Click on div dynamicObject (object4)",
+      "sub_steps": [],
+      "action_id": "35faedd6-da35-4bd9-8fe2-02125046b49a",
+      "timestamp": 1769022479091,
+      "target_name": "div_dynamicObject",
+      "target_test_object_id": "be97cd83-4964-456c-9492-7e0d36400afc"
+    },
+    {
+      "id": "eef92663-4138-4a96-b9d7-c8fa9c8b05d9",
+      "name": "Click on div more",
+      "sub_steps": [],
+      "action_id": "b8726097-2e50-430b-b9a0-b0ea3c2c1162",
+      "timestamp": 1769022483706,
+      "target_name": "div_more",
+      "target_test_object_id": "1f02fbd8-b750-44a0-adb3-f7d214f432d4"
+    },
+    {
+      "id": "064a1ca7-3df9-41de-875c-f6c9521d17fb",
+      "name": "Click on button batteryManagementIcs",
+      "sub_steps": [],
+      "action_id": "579fe347-4409-4379-9f58-a19f06ca733d",
+      "timestamp": 1769022485403,
+      "target_name": "button_batteryManagementIcs",
+      "target_test_object_id": "d3408507-8a2c-4ab2-a4b1-549fe5e43e34"
+    },
+    {
+      "id": "a866fb94-583f-471e-acbb-322e67ec7540",
+      "name": "Click on div dynamicObject (aiRecommendations)",
+      "sub_steps": [],
+      "action_id": "c9587fe8-fb5f-4353-be53-2f17bfba4610",
+      "timestamp": 1769022493278,
+      "target_name": "div_dynamicObject",
+      "target_test_object_id": "59498aff-0466-4542-829b-1af2c26c2601"
+    },
+    {
+      "id": "721925ad-47b2-405d-af80-44bbb6fc2607",
+      "name": "Click on div dynamicObject (object5)",
+      "sub_steps": [],
+      "action_id": "2cc9e573-041d-462d-a617-bdd35d167baa",
+      "timestamp": 1769022499256,
+      "target_name": "div_dynamicObject",
+      "target_test_object_id": "eb1ef026-46b9-4eef-bfde-7164b43f8d78"
+    },
+    {
+      "id": "5f6d76d6-0436-4874-9895-e79674fe2eb9",
+      "name": "Click on main object -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "7e240673-def7-417a-9887-364cc8539469",
+      "timestamp": 1769038982720,
+      "target_name": "main_object",
+      "target_test_object_id": "a251691f-35f8-4ebb-857d-7c226d24eef8"
+    },
+    {
+      "id": "a5da38ce-26b3-494c-acc3-20e2088907b2",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

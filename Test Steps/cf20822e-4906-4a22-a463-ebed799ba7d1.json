@@ -1,0 +1,120 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "34f8a08d-8e40-4634-bb88-0a2ca48e5b5f",
+      "name": "Navigate to /product/*/part-details/*",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "2f5a887e-251f-4390-bc3f-f27a58ac8614",
+      "name": "Click on link managePreferences",
+      "sub_steps": [],
+      "action_id": "1cc8cb92-ed4d-4c50-9b28-689c18644b12",
+      "timestamp": 1769021182551,
+      "target_name": "link_managePreferences",
+      "target_test_object_id": "d262d8eb-a5d0-4312-9712-4516ebe9a7aa"
+    },
+    {
+      "id": "cd287453-4b39-4587-aac3-dccb18e39990",
+      "name": "Click on div saveAndClose",
+      "sub_steps": [],
+      "action_id": "8bff7c58-72b8-4ece-b4f8-9e50aeaa8a09",
+      "timestamp": 1769021192111,
+      "target_name": "div_saveAndClose",
+      "target_test_object_id": "c42dfd0d-1277-4e83-ab0b-02839d46240d"
+    },
+    {
+      "id": "dfb75947-7528-45cb-a86b-59c4a87b7125",
+      "name": "Click on button shippingActions (shipToUsd)",
+      "sub_steps": [],
+      "action_id": "adec3ee7-c6c8-4f0f-a5fb-e23a5cd9eb2e",
+      "timestamp": 1769021208929,
+      "target_name": "button_shippingActions",
+      "target_test_object_id": "8cdc812e-0432-4d00-9f7f-f8f50fb2c6d8"
+    },
+    {
+      "id": "db6c5df4-d9fc-4e97-83b8-cd33c2a645c4",
+      "name": "Select option with input value from select language",
+      "sub_steps": [],
+      "action_id": "5dcb6a4f-7f70-490c-9102-0a54a068358d",
+      "timestamp": 1769021221386,
+      "target_name": "select_language",
+      "target_test_object_id": "b85adecc-b1fa-4f10-88a8-cad6606c2ff6"
+    },
+    {
+      "id": "f9e3725f-16fb-4f22-a966-33f68cc8746b",
+      "name": "Click on button save -> Navigate to page '/product/de-de/*/part-details/*'",
+      "sub_steps": [],
+      "action_id": "f7927051-e6c0-4c85-9aa3-2adabef1ba4e",
+      "timestamp": 1769021231193,
+      "target_name": "button_save",
+      "target_test_object_id": "ce0cfa61-a437-4413-b064-a8002adf57d3"
+    },
+    {
+      "id": "71eb0f04-ddeb-4d54-990d-69b5ae07b6d1",
+      "name": "Click on link unternehmen",
+      "sub_steps": [],
+      "action_id": "25feb656-e987-487f-a4d8-81632016ab1d",
+      "timestamp": 1769021292714,
+      "target_name": "link_unternehmen",
+      "target_test_object_id": "42a81498-1835-4110-b87a-73015ab708c4"
+    },
+    {
+      "id": "43469683-3995-4c40-81d2-b280002d850c",
+      "name": "Click on link shippingPaymentTaxes -> Navigate to page '/de-de/ordering-resources/shipping-payment-tax-information'",
+      "sub_steps": [],
+      "action_id": "5986dd21-be15-4e74-b5a6-3b9aef0eea0e",
+      "timestamp": 1769021332195,
+      "target_name": "link_shippingPaymentTaxes",
+      "target_test_object_id": "d544b14a-0b5e-4510-8d3f-0fa6956ca654"
+    },
+    {
+      "id": "085ce7ea-6803-4193-8d64-75b4f5b38ec5",
+      "name": "Click on header countryRegion",
+      "sub_steps": [],
+      "action_id": "f33e637f-a52c-4ba1-9ce3-cd53c11ea11f",
+      "timestamp": 1769021409686,
+      "target_name": "header_countryRegion",
+      "target_test_object_id": "558f851a-d103-4070-b32b-f36a43cf2f4a"
+    },
+    {
+      "id": "b1b906a4-3c2d-417d-8b4e-3781bbbde024",
+      "name": "Click on link uberTi",
+      "sub_steps": [],
+      "action_id": "8e2d1794-bbb0-48d5-8ddf-6a2524ea1565",
+      "timestamp": 1769021455224,
+      "target_name": "link_uberTi",
+      "target_test_object_id": "0c08251a-4389-47db-8e07-7daa6aafb14d"
+    },
+    {
+      "id": "9eb14f3f-85ba-448f-bf13-b34a260c6486",
+      "name": "Click on div sectionIntroduction -> Navigate to page '/product/de-de/*/part-details/*'",
+      "sub_steps": [],
+      "action_id": "efaed99b-99a7-4981-9e80-79daaa15fd8b",
+      "timestamp": 1769021578883,
+      "target_name": "div_sectionIntroduction",
+      "target_test_object_id": "6f347e24-6fc7-4362-9023-86dfefb347ca"
+    },
+    {
+      "id": "86e2500b-cc6f-448a-abde-f089aa011bb8",
+      "name": "Click on span loginRequired -> Navigate to page '/product/*/part-details/*'",
+      "sub_steps": [],
+      "action_id": "0b5e6644-ad44-4556-b94c-d88957a9ad53",
+      "timestamp": 1769021850893,
+      "target_name": "span_loginRequired",
+      "target_test_object_id": "cd10faca-7933-4b9b-8850-e387f019b3ed"
+    },
+    {
+      "id": "5ebf4509-4286-4a72-bf63-28647feb76da",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "action_id": "c3e801b6-006f-47fe-b542-606a46d95c6b",
+      "timestamp": 1769021861299,
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

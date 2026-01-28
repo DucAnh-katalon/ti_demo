@@ -1,0 +1,37 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "ba94c765-11a7-44ae-8444-14368f89d133",
+      "name": "Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source)",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "e6e88326-73a2-4a5b-84ec-58d7953cd7bc",
+      "name": "Click on link productDatasheets (dataSheet)",
+      "sub_steps": [],
+      "action_id": "63d85a13-5c9f-4f8d-ba90-0dfb809030e4",
+      "timestamp": 1769021762657,
+      "target_name": "link_productDatasheets",
+      "target_test_object_id": "b230de26-edc4-4e26-b5fa-36c87ad3db59"
+    },
+    {
+      "id": "1b7121e4-dd64-4d69-84ae-b568ad64ea55",
+      "name": "Click on link productDatasheets (dataSheet) -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "d8bdd631-eb11-4dc0-85f6-b18624d8a278",
+      "timestamp": 1769021765249,
+      "target_name": "link_productDatasheets",
+      "target_test_object_id": "b230de26-edc4-4e26-b5fa-36c87ad3db59"
+    },
+    {
+      "id": "09448f66-bfa2-44cc-b300-6be5513a3c25",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

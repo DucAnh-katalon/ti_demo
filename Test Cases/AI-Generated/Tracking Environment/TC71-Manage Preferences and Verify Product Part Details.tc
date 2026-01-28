@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>cf20822e-4906-4a22-a463-ebed799ba7d1</id>
+        </flow>
+    </customField>
+    <description>Access product part details, manage preferences, and save changes. Navigate through various links and verify that the product part details page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC71-Manage Preferences and Verify Product Part Details</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>884e5214-2e49-44e0-b105-ae69b2854515</testCaseGuid>
+    <variable>
+        <defaultValue>'.header-llc-sidesheet-side-sheet-holder'</defaultValue>
+        <description>Step 4: Click on button shippingActions (shipToUsd) - (Dynamic locator variable)</description>
+        <id>8308f5a7-56e6-4224-80c5-98924b25fd2f</id>
+        <masked>false</masked>
+        <name>button_shippingActions_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'TPIC46L02DB'</defaultValue>
+        <description>Step 1: Navigate to /product/*/part-details/* - (Dynamic URL variable)</description>
+        <id>f41e66b7-a7e4-4039-ab0a-acc6c7b88ffd</id>
+        <masked>false</masked>
+        <name>part_details_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'TPIC46L02'</defaultValue>
+        <description>Step 1: Navigate to /product/*/part-details/* - (Dynamic URL variable)</description>
+        <id>cf61b34a-1a05-412c-88cc-ad80625c4d13</id>
+        <masked>false</masked>
+        <name>product_id</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 5: Select option with input value from select language - (Input data variable)</description>
+        <id>8a9deb5d-f16a-4093-9232-0256c5a0024a</id>
+        <masked>false</masked>
+        <name>select_language</name>
+    </variable>
+</TestCaseEntity>

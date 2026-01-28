@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>c2658a39-feac-4397-bdef-567781d9ce63</id>
+        </flow>
+    </customField>
+    <description>Navigate to the product page, access the product datasheets, and verify navigation back to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC80-Access Product Datasheets and Verify Navigation</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>74663f0c-66ba-4e54-b8ee-89314a83bde0</testCaseGuid>
+    <variable>
+        <defaultValue>'span &gt; [class=\\"u-margin-right-4\\"]'</defaultValue>
+        <description>Step 2: Click on link productDatasheets (dataSheet) - (Dynamic locator variable)</description>
+        <id>c5984e5f-d11a-4bdc-b30a-f7aadb5e8c83</id>
+        <masked>false</masked>
+        <name>link_productDatasheets_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'span &gt; [class=\\"u-margin-right-4\\"]'</defaultValue>
+        <description>Step 3: Click on link productDatasheets (dataSheet) -&gt; Navigate to page '' - (Dynamic locator variable)</description>
+        <id>2d7cda43-8fe0-4c23-b97a-3008e3069074</id>
+        <masked>false</masked>
+        <name>link_productDatasheets_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'/lit/gpn/tmp112'</defaultValue>
+        <description>Step 2: Click on link productDatasheets (dataSheet) - (Dynamic locator variable)</description>
+        <id>2a9fb3fb-3e4b-44b6-b26f-cfd7ff281069</id>
+        <masked>false</masked>
+        <name>link_productDatasheets_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'/lit/gpn/tmp112'</defaultValue>
+        <description>Step 3: Click on link productDatasheets (dataSheet) -&gt; Navigate to page '' - (Dynamic locator variable)</description>
+        <id>b69f2285-f55f-4662-908c-16aacd21d154</id>
+        <masked>false</masked>
+        <name>link_productDatasheets_href_variable_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'yes'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>6cdf94ce-717b-441f-8695-8d48139b2627</id>
+        <masked>false</masked>
+        <name>product_DCM</name>
+    </variable>
+    <variable>
+        <defaultValue>'TMP112'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>193b87f3-b3ae-4658-b365-e0ea7982bbba</id>
+        <masked>false</masked>
+        <name>product_ds_k</name>
+    </variable>
+    <variable>
+        <defaultValue>'14388345080'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>57cb2b2f-2daf-453e-ade4-7cb64aa9adac</id>
+        <masked>false</masked>
+        <name>product_gad_campaignid</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>19895cdf-1283-4099-ad22-b5b5ea0ab4ef</id>
+        <masked>false</masked>
+        <name>product_gad_source</name>
+    </variable>
+    <variable>
+        <defaultValue>'0AAAAAC068F1a89xpyOjrk3syP-PrGdz8E'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>9e308cd7-d658-45f7-94d2-ccd6f9005813</id>
+        <masked>false</masked>
+        <name>product_gbraid</name>
+    </variable>
+    <variable>
+        <defaultValue>'CjwKCAiAj8LLBhAkEiwAJjbY7-_2qpIh8cg0BH9-Y05F-Gdldc073C5IC--Cr18liJryMtR21zNoQBoCFn0QAvD_BwE'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>8e3da0d1-e652-48d8-a3e4-9d40e7199f55</id>
+        <masked>false</masked>
+        <name>product_gclid</name>
+    </variable>
+    <variable>
+        <defaultValue>'aw.ds'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>c012e843-41b2-4150-84ad-a0bb97ca89f0</id>
+        <masked>false</masked>
+        <name>product_gclsrc</name>
+    </variable>
+    <variable>
+        <defaultValue>'TMP112'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>1594c19a-7bbd-48db-90c1-8acb42f72a49</id>
+        <masked>false</masked>
+        <name>product_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'asc-null-null-GPN_EN-cpc-pf-google-ww_en_cons'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>9aede00f-2259-42be-a2c3-ac127eba4712</id>
+        <masked>false</masked>
+        <name>product_utm_campaign</name>
+    </variable>
+    <variable>
+        <defaultValue>'TMP112'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>511c014f-a9c3-4117-9a5f-096df1e09520</id>
+        <masked>false</masked>
+        <name>product_utm_content</name>
+    </variable>
+    <variable>
+        <defaultValue>'cpc'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>828cad62-2ab8-40f9-9688-e019dfad653a</id>
+        <masked>false</masked>
+        <name>product_utm_medium</name>
+    </variable>
+    <variable>
+        <defaultValue>'google'</defaultValue>
+        <description>Step 1: Navigate to /product/* with params (DCM, ds k, gad campaignid, gad source, gbraid, gclid, gclsrc, utm campaign, utm content, utm medium, utm source) - (Dynamic URL variable)</description>
+        <id>c3cabc6e-4ef7-422e-917d-ce993e7a9bdb</id>
+        <masked>false</masked>
+        <name>product_utm_source</name>
+    </variable>
+</TestCaseEntity>
