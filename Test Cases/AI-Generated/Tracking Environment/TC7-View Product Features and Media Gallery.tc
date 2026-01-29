@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>55bfa953-5c25-407d-bf2b-0f4cd5047da3</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC7-View Product Features and Media Gallery</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test_du_2</tag>
     <testCaseGuid>3b613aa9-048f-4059-b4de-7e380731b041</testCaseGuid>
     <variable>
         <defaultValue>'[class=\\"ti-media-gallery-dialog-carousel-thumbnails\\"] &gt; button:nth-of-type(2)'</defaultValue>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>8386ea21-8a53-48e8-8af9-b6f57280dbf9</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC6-Download Quality Reliability Packaging Report</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test_du_2</tag>
     <testCaseGuid>611b9094-1c3b-4196-938b-f20f2edd8a30</testCaseGuid>
     <variable>
         <defaultValue>'SN74LVC1G17DBVTG4'</defaultValue>
