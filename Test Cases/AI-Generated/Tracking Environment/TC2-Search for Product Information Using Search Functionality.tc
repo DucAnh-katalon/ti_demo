@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>97eacb00-5b33-4c5a-a7bb-1d776fbf45b6</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC2-Search for Product Information Using Search Functionality</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test_comment_du</tag>
     <testCaseGuid>cdcab33c-4b22-499b-a563-864b7968ba63</testCaseGuid>
     <variable>
         <defaultValue>''</defaultValue>
