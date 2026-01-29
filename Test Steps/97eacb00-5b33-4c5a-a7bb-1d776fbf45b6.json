@@ -1,0 +1,57 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "2a91eff3-ffb6-48b5-bd84-8aee52959cc0",
+      "name": "Navigate to /tool/*",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "7451f4c2-8c11-4e8a-a817-fa27a027c790",
+      "name": "Click on input search",
+      "sub_steps": [],
+      "action_id": "39f57389-1cc9-47fc-8102-2a8cfeb6c35d",
+      "timestamp": 1769014907597,
+      "target_name": "input_search",
+      "target_test_object_id": "f54fbe8a-600c-4842-8139-a8afdee3d1c4"
+    },
+    {
+      "id": "1be8f952-189b-447b-8898-ebef04f82f9d",
+      "name": "Enter input value in input search2",
+      "sub_steps": [],
+      "action_id": "c21ec026-24cb-4157-9850-fd35fc0ae290",
+      "timestamp": 1769014908791,
+      "target_name": "input_search2",
+      "target_test_object_id": "529ed545-61e2-4dc2-a173-f184b10702e2"
+    },
+    {
+      "id": "ee8a83a2-dccb-4ba9-9c69-865e7d2a06dd",
+      "name": "Press key Enter on input search3 -> Navigate to page '/sitesearch/en-us/docs/universalsearch.tsp'",
+      "sub_steps": [],
+      "action_id": "35d9a28b-70cb-46eb-a909-6551c5c455bf",
+      "timestamp": 1769014912434,
+      "target_name": "input_search3",
+      "target_test_object_id": "dacacc2c-db6c-4af3-979e-9dd31aac2487"
+    },
+    {
+      "id": "041cc91f-321f-43d7-a06f-557f490fc01e",
+      "name": "Click on link eFuseDescription -> Navigate to page '/product/*'",
+      "sub_steps": [],
+      "action_id": "2dd00835-a2ca-46a5-b249-8adfb09e9297",
+      "timestamp": 1769014925142,
+      "target_name": "link_eFuseDescription",
+      "target_test_object_id": "1d0c1952-e4ee-4806-ab53-bb3557ed0990"
+    },
+    {
+      "id": "7b4226fd-3d89-4ef1-8272-8626b13bf684",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "action_id": "79731ab6-2caf-4b75-9985-afeca787be96",
+      "timestamp": 1769014928111,
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}
