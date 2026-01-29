@@ -1,0 +1,66 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "e06ab0a0-3774-4b2f-a2ea-775c62dd5dff",
+      "name": "Navigate to /product/*",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "226ac8ca-a6e2-4c3b-b917-8e8f607ba4f0",
+      "name": "Click on div imageNavigation (navigateImages)",
+      "sub_steps": [],
+      "action_id": "7f52c884-251a-4b34-a3d1-87b8a909cb80",
+      "timestamp": 1769015597672,
+      "target_name": "div_imageNavigation",
+      "target_test_object_id": "34114c31-e19f-4cb4-a6ed-94a3d4597ddb"
+    },
+    {
+      "id": "7af8861b-c424-4a4c-9420-da609c0b9eb5",
+      "name": "Click on div mediaGallery",
+      "sub_steps": [],
+      "action_id": "30fea173-fff2-4c38-ad9f-4f0aa1260dbc",
+      "timestamp": 1769015606592,
+      "target_name": "div_mediaGallery",
+      "target_test_object_id": "2168f63f-1b32-45b0-9f17-db2cd91e1dd1"
+    },
+    {
+      "id": "b13e5d38-fc24-4b18-9cc0-5dde6b1eab0b",
+      "name": "Click on button productFeatures (mediaGalleryThumbnail)",
+      "sub_steps": [],
+      "action_id": "ae4c2417-4148-4be0-9764-b0a50ab8b2db",
+      "timestamp": 1769015607121,
+      "target_name": "button_productFeatures",
+      "target_test_object_id": "ee73472f-50e7-4590-8503-348990a0e342"
+    },
+    {
+      "id": "31168f17-58d4-4ba3-b55c-79ebe8125f54",
+      "name": "Click on button productFeatures (schematic)",
+      "sub_steps": [],
+      "action_id": "cc89d623-1b21-4ba5-be0f-1183a039ea6c",
+      "timestamp": 1769015608663,
+      "target_name": "button_productFeatures",
+      "target_test_object_id": "fa68514a-7ddf-4380-a786-1e571333eb7a"
+    },
+    {
+      "id": "dfda9f22-224f-4106-8e04-337165888d16",
+      "name": "Click on div close",
+      "sub_steps": [],
+      "action_id": "199019ce-6056-437e-a8a1-481b9d006045",
+      "timestamp": 1769015611192,
+      "target_name": "div_close",
+      "target_test_object_id": "038f05e7-cdd1-465d-bfdb-3a340d817188"
+    },
+    {
+      "id": "ef52b04a-ea15-4ed3-a8d4-dfa566aeca7b",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "action_id": "53985989-e1d6-4e84-a4d8-835dda1607f3",
+      "timestamp": 1769019725829,
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}

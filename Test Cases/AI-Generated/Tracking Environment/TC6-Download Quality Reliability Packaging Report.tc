@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8386ea21-8a53-48e8-8af9-b6f57280dbf9</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Quality Reliability Packaging report, select the assembly site, and return to the home page after viewing the report.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC6-Download Quality Reliability Packaging Report</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>611b9094-1c3b-4196-938b-f20f2edd8a30</testCaseGuid>
+    <variable>
+        <defaultValue>'SN74LVC1G17DBVTG4'</defaultValue>
+        <description>Step 1: Navigate to /quality-reliability-packaging-download/report with params (opn) - (Dynamic URL variable)</description>
+        <id>abae43a2-344f-4257-8fb4-cf2c8107cf7a</id>
+        <masked>false</masked>
+        <name>report_opn</name>
+    </variable>
+</TestCaseEntity>

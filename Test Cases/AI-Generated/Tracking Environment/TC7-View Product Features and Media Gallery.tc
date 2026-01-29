@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>55bfa953-5c25-407d-bf2b-0f4cd5047da3</id>
+        </flow>
+    </customField>
+    <description>Access the product page, explore the media gallery, view product features, and close the feature display before returning to the product page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC7-View Product Features and Media Gallery</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3b613aa9-048f-4059-b4de-7e380731b041</testCaseGuid>
+    <variable>
+        <defaultValue>'[class=\\"ti-media-gallery-dialog-carousel-thumbnails\\"] &gt; button:nth-of-type(2)'</defaultValue>
+        <description>Step 4: Click on button productFeatures (mediaGalleryThumbnail) - (Dynamic locator variable)</description>
+        <id>9186444b-9821-4d1f-bdb6-f99083bcb959</id>
+        <masked>false</masked>
+        <name>button_productFeatures_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'button:nth-of-type(3)'</defaultValue>
+        <description>Step 5: Click on button productFeatures (schematic) - (Dynamic locator variable)</description>
+        <id>ddcda25f-bbf9-42bc-bfdf-898aced321f6</id>
+        <masked>false</masked>
+        <name>button_productFeatures_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Navigate images with the arrow keys, or click to zoom the image'</defaultValue>
+        <description>Step 2: Click on div imageNavigation (navigateImages) - (Dynamic locator variable)</description>
+        <id>d54d6d84-2b43-41e3-a153-dc8112edf257</id>
+        <masked>false</masked>
+        <name>div_imageNavigation_InternalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'[class=\\"ti-media-gallery-scroll-container\\"]'</defaultValue>
+        <description>Step 2: Click on div imageNavigation (navigateImages) - (Dynamic locator variable)</description>
+        <id>eaace474-4bf6-4339-98f0-66160c6eb0cc</id>
+        <masked>false</masked>
+        <name>div_imageNavigation_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'LM5066H'</defaultValue>
+        <description>Step 1: Navigate to /product/* - (Dynamic URL variable)</description>
+        <id>6ef54424-6a86-4d28-8222-7ccbd3b1bf73</id>
+        <masked>false</masked>
+        <name>product_id</name>
+    </variable>
+</TestCaseEntity>

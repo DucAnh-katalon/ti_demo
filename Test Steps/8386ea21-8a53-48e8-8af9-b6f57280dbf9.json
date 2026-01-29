@@ -1,0 +1,55 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "fe8222e7-e570-44e0-a11f-fc8095b950a4",
+      "name": "Navigate to /quality-reliability-packaging-download/report with params (opn)",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    },
+    {
+      "id": "c8036c2e-c1c2-4c78-a728-6fe4dbe8fd0b",
+      "name": "Click on label assemblySite",
+      "sub_steps": [],
+      "action_id": "ef09d35b-c02a-4dfb-9256-21bf3937badd",
+      "timestamp": 1769015535253,
+      "target_name": "label_assemblySite",
+      "target_test_object_id": "f65c9327-aae7-477a-885b-6033094f7a3e"
+    },
+    {
+      "id": "2006f757-2a96-4bf2-a6e7-7be928f7ee4d",
+      "name": "Click on div qualityReliabilityPackaging",
+      "sub_steps": [],
+      "action_id": "3e9e984c-ba38-4dad-9bac-b4f434713b49",
+      "timestamp": 1769015564906,
+      "target_name": "div_qualityReliabilityPackaging",
+      "target_test_object_id": "1e03cc10-e46a-4fd1-a374-38544c4181eb"
+    },
+    {
+      "id": "f5a6f803-750d-45b0-8831-2035b5618f41",
+      "name": "Click on div qualityReliabilityPackaging",
+      "sub_steps": [],
+      "action_id": "cd5494fe-d716-4247-904b-feee9a379d94",
+      "timestamp": 1769015572948,
+      "target_name": "div_qualityReliabilityPackaging",
+      "target_test_object_id": "1e03cc10-e46a-4fd1-a374-38544c4181eb"
+    },
+    {
+      "id": "92960257-5a0b-49ca-a92a-3633aeaad690",
+      "name": "Click on div qualityReliabilityPackaging -> Navigate to page ''",
+      "sub_steps": [],
+      "action_id": "df510fac-69bb-4674-97fb-201ea6aa5f02",
+      "timestamp": 1769015583853,
+      "target_name": "div_qualityReliabilityPackaging",
+      "target_test_object_id": "1e03cc10-e46a-4fd1-a374-38544c4181eb"
+    },
+    {
+      "id": "b20967d0-7359-4f8a-85b4-ab573553a00c",
+      "name": "Take full page screenshot as checkpoint",
+      "sub_steps": [],
+      "target_name": "",
+      "target_test_object_id": ""
+    }
+  ]
+}
